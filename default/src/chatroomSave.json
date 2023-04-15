@@ -1,0 +1,39 @@
+{
+  "messages": [
+    {
+      "username": "Jonas",
+      "message": "Hello World",
+      "avatar": "http://localhost:3000/img/icon-4.png",
+      "color": "#5dff05",
+      "date": "22:46 Uhr, 15.4.2023"
+    },
+    {
+      "username": "peter3",
+      "message": "wadwad",
+      "avatar": "http://localhost:3000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:46 Uhr, 15.4.2023"
+    },
+    {
+      "username": "awdw",
+      "message": "wadwad",
+      "avatar": "http://localhost:3000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:47 Uhr, 15.4.2023"
+    },
+    {
+      "username": "awdwadwd",
+      "message": "awdwad",
+      "avatar": "http://localhost:3000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:47 Uhr, 15.4.2023"
+    },
+    {
+      "username": "awdwadwdawdwad",
+      "message": "awdwadwad",
+      "avatar": "http://localhost:3000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:47 Uhr, 15.4.2023"
+    }
+  ]
+}

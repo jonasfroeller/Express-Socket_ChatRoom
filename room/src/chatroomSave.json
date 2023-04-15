@@ -1,0 +1,130 @@
+{
+  "messages": [
+    {
+      "username": "Peter",
+      "message": "Hello World",
+      "avatar": "http://localhost:3000/img/icon-12.png",
+      "color": "#ea1af9",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "Jonas",
+      "message": "Hallooo",
+      "avatar": "http://localhost:3000/img/icon-3.png",
+      "color": "#0033ff",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "Jonas",
+      "message": "adwad",
+      "avatar": "http://localhost:3000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "ncp",
+      "message": "awdadwad",
+      "avatar": "http://localhost:3000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "Jonas",
+      "message": "wadawdwadwad",
+      "avatar": "http://localhost:3000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "Jonas",
+      "message": "swdwad",
+      "avatar": "http://localhost:3000/img/icon-10.png",
+      "color": "#ff0000",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "ncp",
+      "message": "dawdasss",
+      "avatar": "http://localhost:3000/img/icon-5.png",
+      "color": "#2432ff",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "Jonas",
+      "message": "wwdsssddaw",
+      "avatar": "http://localhost:3000/img/icon-8.png",
+      "color": "#c10606",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "awdwads",
+      "message": "sssss",
+      "avatar": "http://localhost:3000/img/icon-10.png",
+      "color": "#3687f2",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "awdwads",
+      "message": "wdwadwad",
+      "avatar": "http://localhost:3000/img/icon-10.png",
+      "color": "#3687f2",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "awdwads",
+      "message": "ssss",
+      "avatar": "http://localhost:3000/img/icon-10.png",
+      "color": "#3687f2",
+      "date": "22:38 Uhr, 15.4.2023"
+    },
+    {
+      "username": "jonasfroeller",
+      "message": "wadawdad",
+      "avatar": "http://localhost:3000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:39 Uhr, 15.4.2023"
+    },
+    {
+      "username": "jonasfroeller",
+      "message": "awdwadaw",
+      "avatar": "http://localhost:3000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:39 Uhr, 15.4.2023"
+    },
+    {
+      "username": "jonasfroeller",
+      "message": "wdwd",
+      "avatar": "http://localhost:3000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:39 Uhr, 15.4.2023"
+    },
+    {
+      "username": "jonasfroeller",
+      "message": "",
+      "avatar": "http://localhost:3000/img/icon-6.png",
+      "color": "#681d1d",
+      "date": "22:40 Uhr, 15.4.2023"
+    },
+    {
+      "username": "jonasfroeller",
+      "message": "",
+      "avatar": "http://localhost:3000/img/icon-7.png",
+      "color": "#681d1d",
+      "date": "22:40 Uhr, 15.4.2023"
+    },
+    {
+      "username": "jonasfroeller",
+      "message": "wadadwa",
+      "avatar": "http://localhost:3000/img/icon-7.png",
+      "color": "#681d1d",
+      "date": "22:40 Uhr, 15.4.2023"
+    },
+    {
+      "username": "peter",
+      "message": "awdawdaw",
+      "avatar": "http://localhost:3000/img/icon-8.png",
+      "color": "#b81919",
+      "date": "22:40 Uhr, 15.4.2023"
+    }
+  ]
+}
