@@ -57,3 +57,6 @@
 # Framework Builds
 **/dist
 **/build
+
+# Other
+**/*chatroomSave.json
