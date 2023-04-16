@@ -1,7 +1,7 @@
 {
-  "name": "hellosocket",
+  "name": "Express-Socket_ChatRoom",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple chat room hosted with express. Messages are stored locally with the FS-module. Messages are shared with socket.io",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

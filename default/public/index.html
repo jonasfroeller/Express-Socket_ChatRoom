@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/socket.io/socket.io.min.js" defer></script>
+    <script src="./script.js" defer></script>
+    <title>Socket.io ChatRoom</title>
+</head>
+
+<body>
+    <header>
+        <h1>Chatroom</h1>
+    </header>
+    <div class="settings">
+        <h1>Avatars: </h1>
+        <div id="avtrs">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-1.png" alt="user-avatar-1">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-2.png" alt="user-avatar-2">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-3.png" alt="user-avatar-3">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-4.png" alt="user-avatar-4">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-5.png" alt="user-avatar-5">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-6.png" alt="user-avatar-6">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-7.png" alt="user-avatar-7">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-8.png" alt="user-avatar-8">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-9.png" alt="user-avatar-9">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-10.png" alt="user-avatar-10">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-11.png" alt="user-avatar-11">
+            <img onclick="selectAvatar(this)" class="avtr" src="./img/icon-12.png" alt="user-avatar-12">
+        </div>
+    </div>
+
+    <main>
+        <div id="chat"></div>
+    </main>
+
+    <div class="userInputs">
+        <form class="form" class="input">
+            <div class="formItem column">
+                <label for="user">Username:</label>
+                <input id="user" type="text" placeholder="min. 3 chars" maxlength="25">
+            </div>
+            <div class="formItem column">
+                <label for="msg">Message:</label>
+                <input id="msg" type="text" placeholder="min. 1 char" maxlength="100">
+            </div>
+            <div class="formItem column">
+                <label for="clr">Choose your color: </label>
+                <input id="clr" type="color">
+            </div>
+            <div class="formItem column">
+                <label for="avtr">Choose your Avatar: </label>
+                <span id="avtr" class="material-icons" onclick="showAvatars()">face</span>
+            </div>
+            <div class="formItem column">
+                <button id="btn" type="button" onclick="sendNewMessage()">send</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
