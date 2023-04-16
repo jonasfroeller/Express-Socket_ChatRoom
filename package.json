@@ -1,0 +1,23 @@
+{
+  "name": "express-socket_chatroom",
+  "version": "1.0.0",
+  "description": "A simple chat room hosted with express. Messages are stored locally with the FS-module. Messages are shared with socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasfroeller/Express-Socket_ChatRoom.git"
+  },
+  "author": "Jonas Froeller",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "bugs": {
+    "url": "https://github.com/jonasfroeller/Express-Socket_ChatRoom/issues"
+  },
+  "homepage": "https://github.com/jonasfroeller/Express-Socket_ChatRoom#readme"
+}

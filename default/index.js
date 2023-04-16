@@ -1,16 +1,18 @@
 // .on für abfangen
 // .emit zum feuern
-const port = 3000;
-const jsonpath = "./src/chatroomSave.json";
+const path = require('path');
 const express = require('express');
 const fs = require("fs");
 const http = require('http');
+
+const port = process.env.PORT || 4000;
+const jsonpath = path.join(__dirname, 'src/chatroomSave.json');
 
 const app = express();
 const server = http.createServer(app);
 const io = require('socket.io')(server); // (http) heißt: io(http) => Function Call
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 let clients = 0;
 io.on('connection', (socket) => {

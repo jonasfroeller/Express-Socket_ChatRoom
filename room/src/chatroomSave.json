@@ -5,14 +5,28 @@
       "message": "Hello World",
       "avatar": "http://localhost:3000/img/icon-12.png",
       "color": "#ea1af9",
-      "date": "22:38 Uhr, 15.4.2023"
+      "date": "22:24 Uhr, 16.4.2023"
     },
     {
       "username": "Jonas",
       "message": "Hallooo",
       "avatar": "http://localhost:3000/img/icon-3.png",
       "color": "#0033ff",
-      "date": "22:38 Uhr, 15.4.2023"
+      "date": "22:24 Uhr, 16.4.2023"
+    },
+    {
+      "username": "adwdwadwwwwwwww",
+      "message": "dwadwadwa",
+      "avatar": "http://localhost:5000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:24 Uhr, 16.4.2023"
+    },
+    {
+      "username": "awdwadaw",
+      "message": "awdawdwadwa",
+      "avatar": "http://localhost:5000/img/icon-1.png",
+      "color": "#000000",
+      "date": "22:24 Uhr, 16.4.2023"
     }
   ]
 }

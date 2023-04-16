@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+</head>
+
+<body>
+    <main>
+        <article>
+            <h1>Chat Room with Websockets</h1>
+
+            A simple chat room hosted with express. Messages are stored locally with the FS-module. Messages are shared
+            with <a href="https://socket.io/">socket.io</a>.
+
+            <strong>Technologies</strong>: HTML, CSS, JS, NodeJS, Express, FS-module, JSON, SocketIO-Websocket
+
+            <h2>Versions</h2>
+
+            <h3>Huge Chat Room (<a href="http://localhost:4000/index.html">default</a>)</h3>
+
+            Everybody that views the site can write in the same chat.
+
+            <h3>Chat Rooms (<a href="http://localhost:4000/index.html">room</a>)</h3>
+
+            The second version requires 3 connections to the site to unlock a chatroom for them. Every room has 3 slots
+            and if one is full, another one starts filling up.
+        </article>
+        <section>
+            <a href="http://localhost:4000/index.html">
+                <button type="button">
+                    default
+                </button>
+            </a>
+            <a href="http://localhost:5000/index.html">
+                <button type="button">
+                    room
+                </button>
+            </a>
+        </section>
+    </main>
+</body>
+
+</html>

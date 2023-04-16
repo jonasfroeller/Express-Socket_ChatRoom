@@ -75,7 +75,14 @@ function showAvatars() {
     }
 }
 
-let avatar = "http://localhost:3000/img/icon-1.png";
+let host = "";
+if (window.location.hostname === "localhost") {
+    host = "http://localhost:5000";
+} else {
+    host = "https://express-socket-chat-room-default.glitch.me";
+}
+
+let avatar = `${host}/img/icon-1.png`;
 function selectAvatar(element) {
     avatar = element.src;
     console.log(avatar);
