@@ -4,12 +4,14 @@
   "description": "A simple chat room hosted with express. Messages are stored locally with the FS-module. Messages are shared with socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "Jonas Froeller",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
-    "socket.io": "^4.4.1"
+    "socket.io": "^4.4.1",
+    "nodemon": "^2.0.15"
   }
 }
